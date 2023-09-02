@@ -2,6 +2,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background-color: rgba(220, 38, 38);
+}
+
 @media only screen and (min-width: 1000px) {
     .app {
         max-width: 1920px;
